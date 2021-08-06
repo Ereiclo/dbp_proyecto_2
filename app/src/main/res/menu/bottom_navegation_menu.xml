@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstItem"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/bet"
+        android:enabled="true"
+        />
+
+    <!--
+
+    <item
+        android:id="@+id/secondItem"
+        android:icon="@android:drawable/ic_delete"
+        android:enabled="true"
+        android:title="@string/bet_history"
+
+
+        />
+    -->
+
+
+
+
+    <item
+        android:id="@+id/thirdItem"
+        android:icon="@drawable/baseline_paid_black_18"
+        android:enabled="true"
+        android:title="@string/deposit"
+        />
+
+
+    <item
+        android:id="@+id/fourthItem"
+        android:icon="@drawable/baseline_account_circle_18"
+        android:enabled="true"
+        android:title="@string/information"
+        />
+
+
+
+</menu>

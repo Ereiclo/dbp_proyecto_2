@@ -1,0 +1,66 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BecTec</string>
+    <string name="bet">Bet!</string>
+    <string name="bet_history">Bet History</string>
+    <string name="information">Information</string>
+    <string name="deposit">Deposit</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="log_in_view">Welcome to BecTec!</string>
+    <string name="text_username">Username:</string>
+    <string name="text_password">Password:</string>
+    <string name="button_log_in">Log in</string>
+    <string name="button_register">Register</string>
+    <string name="button_add_credit_card">Add credit card</string>
+    <string name="text_credit_card">Add money to your account</string>
+    <string name="text_number_credit_card">Enter credit card number:</string>
+    <string name="text_owner">Enter owner of the credit card:</string>
+    <string name="minus">-</string>
+    <string name="text_cvv">CVV:</string>
+    <string name="text_add">Add</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="delete">delete</string>
+    <string name="text_send">Enter a quantity to add:</string>
+    <string name="text_send2">Enter a quantity to the bet:</string>
+    <string name="vs">vs</string>
+    <string name="button_create_bet">Bet!</string>
+    <string name="register">Register</string>
+    <string name="register2">Register:</string>
+    <string name="header_money">Money in account: <xliff:g id="money_">%s</xliff:g></string>
+
+    <string name="add">Add</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="bet_for">Betting for:</string>
+    <string name="text_profit">For a profit of:</string>
+    <string name="text_account_money">Money in account: </string>
+    <string name="text_name">Name: </string>
+    <string name="text_last_name">Last name: </string>
+    <string name="text_date_of_birth">Date of birth: </string>
+    <string name="error_username">Incorrect username</string>
+    <string name="error_password">Incorrect password</string>
+    <string name="text_cp">Confirm password:</string>
+    <string name="text_email_">Email:</string>
+    <string name="text_update">Update</string>
+    <string name="text_log_off">Log off</string>
+    <string name="text_error_username_register">Username already exists</string>
+    <string name="hint_select_day">Select a birth date</string>
+    <string name="error_pwdm">Passwords doesnt match</string>
+    <string name="error_pw_invalid_length">Invalid length (at least 8 characters)</string>
+    <string name="error_pw_mc">Password requires al least one digit (number from 1 to 9)</string>
+    <string name="error_invalid_birth_day">You need to be an adult to bet!</string>
+    <string name="error_null_birthday">Enter a birth date</string>
+    <string name="error_owner_name">Thats not the name of a owner</string>
+    <string name="error_invalid_card_number">Invalid card number</string>
+    <string name="error_invalid_cvv">Invalid CVV</string>
+    <string name="error_incorrect_minput">Incorrect input</string>
+    <string name="error_null_deposit">Null deposit</string>
+    <string name="error_negative_deposit">Negative deposit</string>
+    <string name="null_bet">Null bet</string>
+    <string name="negative_bet">Negative bet</string>
+    <string name="insufficient_funds">Insufficient funds</string>
+
+
+</resources>

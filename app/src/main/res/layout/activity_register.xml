@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <LinearLayout
+        android:id="@+id/register_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Bienvenid@ a BECTEC!"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/register"
+            />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/layout_username"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Usuario: "
+                android:layout_marginRight="40dp"
+                />
+
+            <EditText
+                android:id="@+id/user"
+
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:inputType="textShortMessage" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/error_username_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="0dp"
+
+            android:layout_marginEnd="20dp"
+            android:text="@string/text_error_username_register"
+
+            android:textColor="@color/red" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/text_password"
+                android:layout_marginRight="30dp"
+                />
+
+            <EditText
+                android:id="@+id/usern"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/error_password_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="0dp"
+
+            android:layout_marginEnd="20dp"
+            android:visibility="gone"
+
+            android:textColor="@color/red" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/text_cp"
+                android:layout_marginRight="30dp"
+                />
+            <EditText
+                android:id="@+id/usern_conf"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/text_email_"
+                android:layout_marginRight="30dp"
+                />
+            <EditText
+                android:id="@+id/em"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:inputType="textEmailAddress"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/text_name"
+                android:layout_marginRight="30dp"
+                />
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:inputType="textShortMessage"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/text_last_name"
+                android:layout_marginRight="30dp"
+                />
+            <EditText
+                android:id="@+id/lastn"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:inputType="textShortMessage"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/text_date_of_birth"
+                android:layout_marginRight="30dp"
+                />
+
+            <EditText
+                android:id="@+id/fecha"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="@string/hint_select_day" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_cancel"
+        android:layout_below="@id/register_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="cancel"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeWidth="3dp"
+
+        />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/register_layout"
+        android:layout_toStartOf="@id/cancel_button"
+        android:layout_marginEnd="5dp"
+        android:onClick="register"
+
+
+        />
+
+    <TextView
+        android:id="@+id/error_birth_day_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="120dp"
+
+        android:layout_above="@id/add_button"
+
+        android:visibility="gone"
+
+        android:textColor="@color/red" />
+
+
+</RelativeLayout>
